@@ -1,0 +1,19 @@
+<!-- 
+  This template gets placed in the Pet tab's <ion-nav-view> directive.
+  It was wired up in the app config (app.js) 
+  The 'pets' data comes from its $scope within PetIndexCtrl (controller.js)
+-->
+<ion-view title="Contacts">
+  <ion-content>
+
+    <ion-list>
+
+      <ion-item ng-repeat="message in messages" type="item-text-wrap" href="#">
+        <h3>{{message.author}}</h3>
+        <p>{{message.content}}</p>
+      </ion-item>
+      
+    </ion-list>
+
+  </ion-content>
+</ion-view>
