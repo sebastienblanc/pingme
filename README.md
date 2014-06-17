@@ -18,7 +18,16 @@ cf Slides
 
 ### Adding a plugin to our first Application
 
-Let's add the Device Motion Plugin 
+#### Add the Device Motion Plugin 
+
+#### Add an element to index.html 
+
+```
+<p id="info"></p>
+
+```
+
+#### Replace your index.js
 
 ```
 
